@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'aleo-regular';
+  src: url('../fonts/aleo/Regular/aleo-regular-webfont.eot');
+  src: url('../fonts/aleo/Regular/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/aleo/Regular/aleo-regular-webfont.woff') format('woff'), url('../fonts/aleo/Regular/aleo-regular-webfont.ttf') format('truetype'), url('../fonts/aleo/Regular/aleo-regular-webfont.svg#CreativeBlockBBBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aleo-bold';
+  src: url('../fonts/aleo/Bold/aleo-bold-webfont.eot');
+  src: url('../fonts/aleo/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/aleo/Bold/aleo-bold-webfont.woff') format('woff'), url('../fonts/aleo/Bold/aleo-bold-webfont.ttf') format('truetype'), url('../fonts/aleo/Bold/aleo-bold-webfont.svg#CreativeBlockBBBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aleo-bolditalic';
+  src: url('../fonts/aleo/Bold Italic/aleo-bolditali-webfont.eot');
+  src: url('../fonts/aleo/Bold Italic/aleo-bolditali-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/aleo/Bold Italic/aleo-bolditali-webfont.woff') format('woff'), url('../fonts/aleo/Bold Italic/aleo-bolditali-webfont.ttf') format('truetype'), url('../fonts/aleo/Bold Italic/aleo-bolditali-webfont.svg#CreativeBlockBBBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #222527 !important;
+  font-family: "aleo-bolditalic", sans-serif;
+  color: #ccc;
+}
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper {
+  padding-left: 200px;
+}
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 200px;
+  width: 0;
+  color: #ccc;
+  height: 100%;
+  margin-left: -200px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper #sidebar-wrapper {
+  width: 200px;
+}
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+#wrapper #page-content-wrapper {
+  position: absolute;
+  margin-right: -200px;
+  color: #ccc;
+}
+#page-content-wrapper .container-fluid {
+  text-align: center;
+}
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  margin: 0 auto 40px;
+}
+.container-fluid .desig {
+  margin-bottom: 40px;
+}
+.image-cropper img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+.icons-group .icons {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #FF8884;
+  color: darkslategrey;
+}
+.icons-group .icons .fa {
+  vertical-align: middle;
+  margin-top: 18px;
+}
+.icons-group .icons .fa-desktop {
+  margin-top: 24px;
+}
+.icons-group span {
+  display: inline-block;
+  height: 90px;
+  vertical-align: middle;
+  margin: 0 60px;
+  line-height: 90px;
+}
+.intro-content p {
+  margin: 40px 0;
+}
+@media (min-width: 768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper {
+    padding-left: 200px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper #sidebar-wrapper {
+    width: 200px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+/* Sidebar Styles */
+.sidebar-nav {
+  width: 200px;
+  margin-top: 50%;
+  padding: 0;
+  list-style: none;
+}
+.brand {
+  text-align: center;
+}
+.logo {
+  color: #FF8884;
+}
+.sidebar-nav li {
+  text-indent: 35%;
+  line-height: 40px;
+  border-left: 4px solid #000;
+}
+.sidebar-nav li.active {
+  border-left: 4px solid #FF8884;
+}
+.sidebar-nav li:hover {
+  background: #FF8884;
+}
+.sidebar-nav li:hover a {
+  color: #000;
+  font-weight: bold;
+}
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+.about-content h4 {
+  margin-bottom: 30px;
+}
+.about-content .box h4 {
+  margin-top: 30px;
+}
+.about-content .general-desc {
+  margin-top: 40px;
+}
+.about-content .bottom-line {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.intro-content, .about-content {
+  margin-top: 13%;
+}
+
+.project-intro-holder {
+  width: 23%;
+  float: left;
+  margin: 9px;
+  background: white;
+  height: 200px;
+}
+
+.article-intro-holder {
+  width: 30%;
+  float: left;
+  margin: 9px;
+  background: #fff;
+  height: 200px;
+  color: rgba(0,0,0,.9);
+  padding: 12px;
+}
+
+.article-intro-holder p{
+  text-align: left;
+}
+
+.image-holder  {
+  height: 160px;
+  overflow:hidden;
+}
+
+.image-holder img {
+  width: 100%;
+}
+.short-desc p{
+  text-align: left;
+}
