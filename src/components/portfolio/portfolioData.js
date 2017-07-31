@@ -2,10 +2,34 @@ module.exports = {
     projects:
     [
         {
+            id: 'halolynx',
+            projectName: 'HaloLynx Admin Portal',
+            imageName: 'insurethegap.png',
+            link: 'https://www.haloinsurance.com/products/'
+        },
+        {
+            id: 'chrysalis',
+            projectName: 'key2key v4 Admin Portal',
+            imageName: 'key2key.png',
+            link: 'https://key2key.net/'
+        },
+        {
+            id: 'meridium_v4',
+            projectName: 'Meridium APM',
+            imageName: 'meridium_v4.png',
+            link: 'https://www.youtube.com/watch?v=rXnpX8-BbJU'
+        },
+        {
+            id: 'management_console',
+            projectName: 'Admin Management Console',
+            imageName: 'meridium.jpg',
+            link: 'https://www.meridium.com/nextgenapm'
+        },
+        {
             id: 'photoshare',
-            projectName: 'Photoshare App',
-            imageName: '',
-            link: ''
+            projectName: 'Photoshare Desktop App',
+            imageName: 'photoshare_app.jpg',
+            link: 'http://gavinwadephoto.com/'
         },
         {
             id: 'restarunt_app',
@@ -76,7 +100,7 @@ module.exports = {
         {
             id: 'luminious',
             projectName: 'eLuminious App',
-            imageName: 'eluminios_app.png',
+            imageName: 'eluminos_app.png',
             link: 'http://eluminos.com/'
         },
         {
