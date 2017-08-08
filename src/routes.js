@@ -17,6 +17,7 @@ var routes = (
         <Route name="about" handler={require('./components/about/aboutPage')} />
         <Route name="portfolio" handler={require('./components/portfolio/portfolioPage')} />
         <Route name="blog" handler={require('./components/blog/blogPage')} />
+        <Route name="article" path="article/:name" handler={require('./components/articles/articlePage')} />
         <Route name="contact" handler={require('./components/contact/contactPage')} />
     </Route>
     );

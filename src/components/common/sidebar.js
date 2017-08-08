@@ -2,6 +2,7 @@
 
 var React = require('react');
 var Link = require('react-router').Link;
+var IndexLink = require('react-router').IndexLink;
 
 var Sidebar = React.createClass({
   render: function() {
@@ -13,21 +14,21 @@ var Sidebar = React.createClass({
           <h3>Mohan</h3>
         </div>
         <ul className="sidebar-nav">
-          <li className="active" data-page="intro">
-          <Link to="app">Home</Link>
+          <li data-page="intro">
+          <Link to="/" activeClassName="active" onlyActiveOnIndex >Home</Link>
           </li>
           <li data-page="about">
-          <Link to="about">About</Link>
+          <Link to="about" activeClassName="active" onlyActiveOnIndex >About</Link>
           </li>
           <li data-page="portfolio">
-            <Link to="portfolio">Portfolio</Link>
+            <Link to="portfolio" activeClassName="active" onlyActiveOnIndex >Portfolio</Link>
           </li>
           <li data-page="blog">
-          <Link to="blog">Blog</Link>
+          <Link to="blog" activeClassName="active" onlyActiveOnIndex >Blog</Link>
 
           </li>
           <li data-page="contact">
-            <Link to="contact">Contact</Link>
+            <Link to="contact" activeClassName="active" onlyActiveOnIndex >Contact</Link>
           </li>
         </ul>
       </div>

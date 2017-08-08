@@ -1,0 +1,16 @@
+===========
+Todo List
+===========
+
+1.Loading animation on each page load
+2.Contact page content
+3.About me content change
+4.Youtube link add to blog
+5.Responsive styles for other devices
+6.Font correction on Article page
+7.Article page UI correction
+8.Article page correct content display as per blog title
+9.Blog menu item should be highlighted when user is on article page
+10.Google anaytics code
+11.Google page speed
+

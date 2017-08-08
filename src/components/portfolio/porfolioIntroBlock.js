@@ -8,7 +8,7 @@ var PortfolioBlock = React.createClass({
 
     var createProjectBlock = function(project) {
         return (
-            <div className="project-intro-holder">
+            <div className="project-intro-holder" key={project.id}>
             <div className="image-holder">
                 <img src={'images/' + project.imageName}/>
             </div>
